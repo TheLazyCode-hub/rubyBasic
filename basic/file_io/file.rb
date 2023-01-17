@@ -6,5 +6,5 @@ if aFile
     aFile.each {|line| puts "#{aFile.lineno}: #{line}" }
     puts content
 else
-    puts "problem opeing file"
+    puts "problem opening file"
 end
