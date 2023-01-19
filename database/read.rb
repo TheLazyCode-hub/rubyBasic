@@ -14,7 +14,6 @@ begin
     resultSet = sth.execute()
 
     resultSet.each do |row|
-        puts row
         puts 'Data row = (%s, %s, %s)' % [row['id'], row['name'], row['quantity']]
     end
     puts 'Read ' + resultSet.count.to_s + ' row(s).'
