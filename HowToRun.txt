@@ -1,0 +1,7 @@
+1. Install ruby on the client system
+2. Install httpd or apache service
+3. Make sure apache or httpd service is stopped
+4. Change the httpd.conf so that it is ready to run CGI files
+5. Copy the program written in cgi into the cgi-bin directory
+6. Restart the service (httpd or apache)
+7. Try fetching the url as <ipaddress>/cgi-bin/<file-name>
